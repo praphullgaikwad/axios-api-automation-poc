@@ -1,5 +1,6 @@
 # axios-api-automation-poc
 This an api automation poc developed for demonstration purpose.
+Developed by Praphull Gaikwad.
 
 ## Overview
 This POC is developed using Axios api automation framework. Axios is a popular JavaScript library designed for making HTTP requests. It is commonly used in both browser-based and Node.js environments.
@@ -13,10 +14,14 @@ Testing on https://reqres.in
 
 ## Installation
 1. Clone the repository
-2. Install the dependencies
+2. Install the dependencies:
+   ```
    npm i
-4. Run the tests and generate report
+   ```
+4. Run the tests and generate report:
+   ```
    npm run test
+   ```
 
 ### Connect me on LinkedIn: https://www.linkedin.com/in/praphullgaikwad
 
