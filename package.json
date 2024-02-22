@@ -1,0 +1,23 @@
+{
+  "name": "axios-api-automation-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "clean:report": "rimraf mochawesome-report/",
+    "test": "npm run clean:report && mocha ./api-tests/*.js --timeout=30000 --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.6.7",
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0",
+    "@faker-js/faker": "^8.4.1",
+    "mochawesome": "^7.1.3",
+    "properties-reader": "^2.3.0",
+    "rimraf": "^5.0.5"
+  }
+}
